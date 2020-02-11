@@ -24,6 +24,9 @@ image::https://raw.githubusercontent.com/apache/tinkerpop/master/docs/static/ima
 [[release-3-3-11]]
 === TinkerPop 3.3.11 (Release Date: NOT OFFICIALLY RELEASED YET)
 
+* Modified Gremlin Server to close the session when the channel itself is closed.
+* Added `maxWaitForClose` configuration option to the Java driver.
+* Deprecated `maxWaitForSessionClose` in the Java driver.
 
 [[release-3-3-10]]
 === TinkerPop 3.3.10 (Release Date: February 3, 2020)
